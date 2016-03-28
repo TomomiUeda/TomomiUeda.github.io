@@ -1,18 +1,136 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Sample</title>
-<!-- BootstrapのCSS読み込み -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!-- jQuery読み込み -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- BootstrapのJS読み込み -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <h1>Hello, world!!!!</h1>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- 個別のCSS読み込み -->
+    <link rel="stylesheet" href="index.css" />   
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- ページタイトル -->
+    <title>上田智美 | MyPage</title>
+
+    </head>
+    
+    <body>
+      <header>
+      <nav>
+          <ul>
+            <a class="navbar-brand" href="index.html">Tomomi Ueda</a>       
+            <li><a href="#about">About</a></li>
+            <li><a href="#tool">Tool</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+          
+        <h1><a name="about">About</a></h1>    
+        <ul>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="icon col-sm-3">   
+                <div id="logo2">
+                  <img src="自分の写真.png" alt="" />
+                </div>
+              </div>
+                
+              <div class="icon col-sm-9">
+                <p>上田　智美</p>
+                <p>熊本県阿蘇郡出身。会社員で育児休業中でこの４月から復職予定です。</p>
+                <p>今まで某業務パッケージのエンジニアをしていましたが、
+                子育てをしているなかで時間に都合がつきやすい仕事をしたくなり、</p>  
+                <p>その準備として<span class="red">Ruby on Rails</span> 
+                を学習中です。</p>
+                <br>
+                <br>
+              </div> 
+            </div> 
+          </div>
+        </ul>
+          
+        <h1><a name="tool">Tool</a></h1>
+    
+        <div class="icon-caption">
+          <h2><a href="index.html">　メッセージボード</a></h>
+        </div>
+          
+        <div class="container-fluid">
+          <div class="row">
+            <div class="icon col-sm-5">
+               <a href="index.html"><img src="メッセージボード.png" alt="" /></a>
+            </div>
+    　　      <div class="content col-sm-5">
+                <p>Ruby on Railsの最初のアプリケーションとして、
+                   メッセージボードを作成しました。</p>
+            </div> 
+          </div> 
+        </div>
+          
+        <div class="icon-caption">
+          <h2><a href="index.html">　twitterクローン</a></h>
+        </div>
+          
+        <div class="container-fluid">
+          <div class="row">
+            <div class="icon col-sm-5">
+               <a href="index.html"><img src="Twitterクローン.png" alt="" /></a>
+            </div>
+            <div class="content col-sm-5">
+              <p>より本格的なWebアプリケーションとして、
+                 Twitterクローンの作成を行いました。</p>
+            </div>
+          </div> 
+        </div>      
+          
+      　<div class="icon-caption">
+          <h2><a href="index.html">　モノリスト</a></h>
+      　</div>
+          
+        <div class="container-fluid">
+          <div class="row">
+            <div class="icon col-sm-5">
+               <a href="index.html"><img src="モノリスト.png" alt="" /></a>
+            </div>
+            <div class="content col-sm-5">
+              <p>より実践的なRailsアプリケーションを作成しました。</p>
+            </div>
+          </div> 
+        </div>  
+          
+        <div class="icon-caption">
+          <h2><a href="index.html">　オリジナルサービス</a></h>
+        </div>
+          
+        <div class="container-fluid">
+          <div class="row">
+            <div class="icon col-sm-5">
+               <a href="index.html"><img src="オリジナルサービス.png" alt="" /></a>
+            </div>
+        　   <div class="content col-sm-5">
+        　     <p>オリジナルサービスを開発し、
+                 自分のアイデアを形にする力を身につけました。</p>
+            </div>
+          </div> 
+        </div>
+        <br><br>
+  
+         
+        <h1><a name="contact">Contact</a></h1>
+        <br>
+        <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+        
+      </section>
+      
+      <footer>
+        <p>&copy; 2016 Tomomi Ueda.</p>
+      </footer>
+  </body>
 </html>
